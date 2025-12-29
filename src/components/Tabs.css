@@ -1,0 +1,152 @@
+:root {
+  --bc-color: #e6f0e6;
+  --buttons-border-color: #c2d4c2;
+  --fonts-color: #3b5a3b;
+  --second-font: #4a4a4a;
+  --active-element: #6fa96f;
+  --adding-elements: #f5f0e6;
+  --cards-bc-image: #ffffff;
+}
+
+.tabs-section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tabs-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.tab {
+  background-color: var(--bc-color);
+  border: 1px solid var(--buttons-border-color);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.tab:hover {
+  background-color: #d4e6d4;
+}
+
+.tab.active {
+  background-color: var(--fonts-color);
+  color: #fff;
+}
+
+.tab-content {
+  font-size: 1.1rem;
+  color: var(--second-font);
+  border: 1px solid #3b5a3b;
+  border-radius: 20px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+}
+
+.tab-content h3 {
+  font-size: 1.4rem;
+  color: var(--fonts-color);
+  margin-bottom: 18px;
+  margin-top: 10px;
+}
+
+.plant-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 24px;
+}
+
+.plant-tab h4 {
+  font-size: 1rem;
+  color: var(--active-element);
+  margin-bottom: 8px;
+}
+
+.plant-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.plant-list li {
+  margin: 6px 0;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 600px) {
+  .tabs-section {
+    padding: 20px 10px;
+  }
+
+  .tab {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+  }
+
+  .tab-content {
+    width: 100%;
+    padding: 16px;
+    align-items: flex-start;
+  }
+
+  .tab-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .plant-tab {
+    margin-top: 16px;
+  }
+
+  .plant-tab h4 {
+    font-size: 0.9rem;
+  }
+
+  .plant-list {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .plant-list li {
+    font-size: 0.9rem;
+    margin-right: 6px;
+  }
+}
+
+@media (max-width: 400px) {
+  .tab {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  .tab-content h3 {
+    font-size: 1.1rem;
+  }
+
+  .tab-content {
+    padding: 14px;
+  }
+
+  .plant-list li {
+    font-size: 0.85rem;
+  }
+}

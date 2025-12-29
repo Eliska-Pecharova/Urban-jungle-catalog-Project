@@ -1,0 +1,84 @@
+:root {
+  --bc-color: #e6f0e6;
+  --buttons-border-color: #c2d4c2;
+  --fonts-color: #3b5a3b;
+  --second-font: #4a4a4a;
+  --active-element: #6fa96f;
+  --adding-elements: #f5f0e6;
+  --cards-bc-image: #ffffff;
+}
+
+.header {
+  position: relative;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: var(--bc-color);
+  overflow: hidden;
+}
+
+.vines {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 120px;
+  height: auto;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.header-title {
+  font-size: 2.8rem;
+  font-family: "Playfair Display";
+  font-weight: 500;
+  color: var(--fonts-color);
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.header-quote {
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+  color: var(--second-font);
+  position: relative;
+  z-index: 2;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 650px) {
+  .header {
+    padding: 80px 20px 40px;
+  }
+
+  .header-title {
+    font-size: 2rem;
+    margin-top: 40px;
+  }
+
+  .header-quote {
+    font-size: 1rem;
+  }
+
+  .vines {
+    width: 90px;
+    top: -10px;
+    left: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    padding: 100px 20px 40px;
+  }
+
+  .header-title {
+    font-size: 1.8rem;
+    margin-top: 50px;
+  }
+
+  .vines {
+    width: 70px;
+    top: -20px;
+  }
+}

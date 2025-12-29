@@ -1,0 +1,19 @@
+:root {
+  --bc-color: #e6f0e6;
+  --buttons-border-color: #c2d4c2;
+  --fonts-color: #3b5a3b;
+  --second-font: #4a4a4a;
+  --active-element: #6fa96f;
+  --adding-elements: #f5f0e6;
+  --cards-bc-image: #ffffff;
+}
+
+body {
+  background-color: var(--bc-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
