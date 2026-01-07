@@ -20,3 +20,9 @@ Interactivity and dynamic elements (if included).
 Browse: On the main page you will find cards of the most popular houseplants.
 Detail: Each plant has a name (Czech and Latin) and icons of difficulty.
 Navigation: Use the menu to easily switch between the catalog and information about the project.
+
+Autorka:
+
+Eliška Pecharová
+🐙 GitHub: @Eliska-Pecharova
+🎮 Záliby: Web development, Gaming, UI Design
