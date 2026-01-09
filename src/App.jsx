@@ -9,6 +9,7 @@ function App() {
       <Routes>
         {/* Main page */}
         <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
 
         {/* API page */}
         <Route path="/search" element={<Search />} />

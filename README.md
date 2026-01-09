@@ -1,28 +1,18 @@
+# React + Vite
 
-Welcome to the Urban Jungle Catalog project! This web project serves as a digital herbarium and catalog for indoor plant lovers. It is designed with an emphasis on clean design, clarity, and easy-to-find information on plant care.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🌟 Main advantages of the project:
+Currently, two official plugins are available:
 
-CLEAR CATEGORIZATION: Plants are sorted so that the user can quickly find what they need.
-RESPONSIVENESS: The website is fully optimized for mobile phones and desktop (Mobile First approach).
-INFORMATIVE CONTENT: Each plant card contains key requirements for light and watering.
-MODERN VISUAL: Use of a "nature-friendly" color palette and elegant typography.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🛠️ Technologies used:
+## React Compiler
 
-The following tools were used to build this catalog:
-Semantic structure and valid code.
-Styling using Flexbox, Grid and CSS variables.
-Interactivity and dynamic elements (if included).
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-📖 How to use the project:
+Note: This will impact Vite dev & build performances.
 
-Browse: On the main page you will find cards of the most popular houseplants.
-Detail: Each plant has a name (Czech and Latin) and icons of difficulty.
-Navigation: Use the menu to easily switch between the catalog and information about the project.
+## Expanding the ESLint configuration
 
-Autorka:
-
-Eliška Pecharová
-🐙 GitHub: @Eliska-Pecharova
-🎮 Záliby: Web development, Gaming, UI Design
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
