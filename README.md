@@ -1,18 +1,24 @@
-# React + Vite
+Welcome to the Urban Jungle Catalog! This is an interactive web-based gallery for houseplant enthusiasts, designed to help users organize and explore their indoor greenery. The project focuses on clean UI, smooth interactions, and responsive design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 About the Project
 
-Currently, two official plugins are available:
+This project was built to showcase my frontend development skills. The main goal was to create a functional plant library where users can easily find essential care information, difficulty levels, and origin details for various plants.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key Features:
 
-## React Compiler
+Plant Gallery: A clean grid layout featuring cards for different plant species.
+Dynamic Filtering: Ability to filter plants based on care requirements (e.g., "Beginner Friendly").
+Care Details: Each plant includes intuitive icons for light conditions and watering schedules.
+Responsive Design: Fully optimized for desktops, tablets, and mobile devices.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+🛠 Tech Stack
 
-Note: This will impact Vite dev & build performances.
+I utilized the following technologies to build this application:
+HTML5: Semantic structure for better accessibility and SEO.
+CSS3 / Tailwind CSS: Modern styling using Flexbox and CSS Grid for layout management.
+JavaScript (ES6+): Logic for dynamic data rendering and interactive UI components.
+Git & GitHub: Version control and project hosting.
 
-## Expanding the ESLint configuration
+Developed by: Eliška Pecharová
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Project Status: Active / In Development
