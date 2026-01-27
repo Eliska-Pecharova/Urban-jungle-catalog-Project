@@ -1,0 +1,36 @@
+:root {
+  --bc-color: #e6f0e6;
+  --buttons-border-color: #c2d4c2;
+  --fonts-color: #3b5a3b;
+  --second-font: #4a4a4a;
+  --active-element: #6fa96f;
+  --adding-elements: #f5f0e6;
+  --cards-bc-image: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 16px 0;
+  background-color: var(--bc-color);
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: var(--fonts-color);
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-item:hover {
+  color: var(--active-element);
+}
+
+.nav-item.active {
+  color: var(--active-element);
+  border-bottom: 2px solid var(--active-element);
+}

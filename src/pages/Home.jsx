@@ -1,14 +1,17 @@
 import Header from "../components/Header";
-import PlantCard from "../components/PlantCard";
+import PlantCardList from "../components/PlantCardList";
 import Tabs from "../components/Tabs";
+import { useState } from "react";
 
 const Home = () => {
+  const [activeTab, setActiveTab] = useState("Beginner");
+
   return (
-    <main className="home-page">
+    <div className="home-page">
       <Header />
-      <PlantCard />
-      <Tabs />
-    </main>
+      <PlantCardList activeTab={activeTab} />
+      <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
+    </div>
   );
 };
 

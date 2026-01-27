@@ -93,9 +93,9 @@
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 600px) {
+@media (max-width: 840px) {
   .tabs-section {
-    padding: 20px 10px;
+    margin: 20px 10px;
   }
 
   .tab {
@@ -132,7 +132,11 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
+  .tabs-section {
+    margin: 15px 7px;
+  }
+
   .tab {
     font-size: 0.8rem;
     padding: 6px 12px;
@@ -143,7 +147,7 @@
   }
 
   .tab-content {
-    padding: 14px;
+    padding: 10px;
   }
 
   .plant-list li {

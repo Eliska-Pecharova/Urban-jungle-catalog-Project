@@ -1,11 +1,6 @@
 import "./Tabs.css";
-import { useState } from "react";
 
-const Tabs = () => {
-  // Track which tab is currently active
-  const [activeTab, setActiveTab] = useState("Beginner");
-
-  // List of tab labels
+const Tabs = ({ activeTab, setActiveTab }) => {
   const tabs = [
     "Beginner",
     "Pet Friendly",
@@ -13,7 +8,6 @@ const Tabs = () => {
     "Statement Plants",
   ];
 
-  // Content for each tab (description + example plants)
   const tabContent = {
     Beginner: {
       description: "Low maintenance, forgiving, and happy with basic care.",
@@ -45,28 +39,24 @@ const Tabs = () => {
 
   return (
     <section className="tabs-section">
-      {/* Tab buttons */}
       <div className="tabs-header">
         {tabs.map((tab) => (
           <button
             key={tab}
             className={tab === activeTab ? "tab active" : "tab"}
-            onClick={() => setActiveTab(tab)} // Switch active tab
+            onClick={() => setActiveTab(tab)}
           >
             {tab}
           </button>
         ))}
       </div>
 
-      {/* Content of the selected tab */}
       <div className="tab-content">
         <h3>{activeTab}</h3>
         <p>{tabContent[activeTab].description}</p>
 
         <ul className="plant-tab">
           <h4>{tabContent[activeTab].plantsName}</h4>
-
-          {/* List of example plants */}
           <div className="plant-list">
             {tabContent[activeTab].plants.map((plant) => (
               <li key={plant}>{plant}</li>

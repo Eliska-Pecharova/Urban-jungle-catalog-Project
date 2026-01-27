@@ -62,10 +62,10 @@
   }
 
   .plant-card {
-    max-width: 300px; /* slightly bigger on mobile */
+    max-width: 300px;
   }
 
   .plant-image {
-    height: 200px; /* nicer proportions */
+    height: 200px;
   }
 }
