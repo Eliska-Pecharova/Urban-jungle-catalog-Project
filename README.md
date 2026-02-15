@@ -1,18 +1,23 @@
-# React + Vite
+# 🌿 Urban Jungle Catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Urban Jungle Catalog is an interactive plant catalog built with React.  
+The goal of this project is to present houseplants in a clean, modern UI with a focus on usability, visual clarity, and smooth user experience.
 
-Currently, two official plugins are available:
+## ✨ Features
+- Interactive catalog of houseplants
+- Modern, responsive UI
+- Clean card layout for plant previews
+- Detailed plant view with extended description
+- Image gallery for each plant
+- Data‑driven structure (all plant info stored separately from UI)
+- Smooth transitions and consistent design system
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Technologies
+- **React**
+- **Vite**
+- **CSS3** with custom styling
+- **JavaScript (ES6+)**
 
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Purpose
+This project was created to practice building a structured, scalable React application with a focus on component architecture, reusable UI elements, and clean data management.  
+It also reflects my personal design style — minimalistic, modern, and visually balanced.
