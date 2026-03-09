@@ -24,15 +24,15 @@ The project demonstrates working with an external API, data manipulation, and cr
 ## 📸 App samples
 
 ### Desktop version
-![Desktop screenshot](images/urban-jungle/desktop-version/Screenshot4.png)
-![Desktop screenshot](images/urban-jungle/desktop-version/Screenshot5.png)
-![Desktop screenshot](images/urban-jungle/desktop-version/Screenshot6.png)
-![Desktop screenshot](images/urban-jungle/desktop-version/Screenshot7.png)
+![Screenshot 4](images/desktop-version/Screenshot4.png)
+![Screenshot 5](images/desktop-version/Screenshot5.png)
+![Screenshot 6](images/desktop-version/Screenshot6.png)
+![Screenshot 7](images/desktop-version/Screenshot7.png)
 
 ### Mobile version
-![Mobile screenshot](images/urban-jungle/mobile-version/Screenshot1.png)
-![Mobile screenshot](images/urban-jungle/mobile-version/Screenshot2.png)
-![Mobile screenshot](images/urban-jungle/mobile-version/Screenshot3.png)
+![Screenshot 1](images/mobile-version/Screenshot1.png)
+![Screenshot 2](images/mobile-version/Screenshot2.png)
+![Screenshot 3](images/mobile-version/Screenshot3.png)
 
 ---
 
