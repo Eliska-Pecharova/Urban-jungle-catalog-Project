@@ -24,15 +24,15 @@ The project demonstrates working with an external API, data manipulation, and cr
 ## 📸 App samples
 
 ### Desktop version
-![Screenshot 4](images/desktop-version/Screenshot4.png)
-![Screenshot 5](images/desktop-version/Screenshot5.png)
-![Screenshot 6](images/desktop-version/Screenshot6.png)
-![Screenshot 7](images/desktop-version/Screenshot7.png)
+![Screenshot 4](./src/images/desktop-version/Screenshot4.png)
+![Screenshot 5](./src/images/desktop-version/Screenshot5.png)
+![Screenshot 6](./src/images/desktop-version/Screenshot6.png)
+![Screenshot 7](./src/images/desktop-version/Screenshot7.png)
 
 ### Mobile version
-![Screenshot 1](images/mobile-version/Screenshot1.png)
-![Screenshot 2](images/mobile-version/Screenshot2.png)
-![Screenshot 3](images/mobile-version/Screenshot3.png)
+![Screenshot 1](./src/images/mobile-version/Screenshot1.png)
+![Screenshot 2](./src/images/mobile-version/Screenshot2.png)
+![Screenshot 3](./src/images/mobile-version/Screenshot3.png)
 
 ---
 
